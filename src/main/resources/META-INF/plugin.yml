@@ -1,0 +1,11 @@
+id: sample-topology-validator-plugin
+name: Sample Topology Validator Plugin
+version: ${project.version}
+description: >
+  Sample plugin that implements a topology validator
+configuration_class: alien4cloud.plugin.sample.validator.PluginConfiguration
+component_descriptors:
+  - bean_name: simple-topology-validator
+    name: A simple Topology Validator
+    description: >
+      A simple Topology Validator that checks node names

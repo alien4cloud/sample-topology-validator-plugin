@@ -7,12 +7,12 @@
     <parent>
         <groupId>alien4cloud</groupId>
         <artifactId>alien4cloud-parent</artifactId>
-        <version>2.2.0-SNAPSHOT</version>
+        <version>3.0.0-SNAPSHOT</version>
     </parent>
 
     <artifactId>sample-topology-validator-plugin</artifactId>
     <name>Alien4Cloud Sample Topology Validator Plugin</name>
-    <version>2.2.0-SNAPSHOT</version>
+    <version>3.0.0-SNAPSHOT</version>
 
     <dependencies>
         <dependency>
@@ -36,22 +36,22 @@
     <repositories>
         <repository>
             <id>repo.opensource.fastconnect.org</id>
-            <url>http://fastconnect.org/maven/content/repositories/opensource</url>
+            <url>https://www.portaildulibre.fr/nexus/repository</url>
         </repository>
         <repository>
             <id>repo.opensource.snapshot.fastconnect.org</id>
-            <url>http://fastconnect.org/maven/content/repositories/opensource-snapshot</url>
+            <url>https://www.portaildulibre.fr/nexus/repository/opensource-snapshots</url>
         </repository>
     </repositories>
 
     <distributionManagement>
         <repository>
             <id>repo.opensource.fastconnect.org</id>
-            <url>https://fastconnect.org/maven/content/repositories/opensource</url>
+            <url>https://www.portaildulibre.fr/nexus/repository</url>
         </repository>
         <snapshotRepository>
             <id>repo.opensource.snapshot.fastconnect.org</id>
-            <url>https://fastconnect.org/maven/content/repositories/opensource-snapshot</url>
+            <url>https://www.portaildulibre.fr/nexus/repository/opensource-snapshots</url>
         </snapshotRepository>
     </distributionManagement>
 
